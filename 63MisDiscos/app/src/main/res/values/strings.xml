@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">63MisDiscos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Grupo">Grupo</string>
+    <string name="disco">Disco</string>
+    <string name="añadir">Añadir</string>
+    <string name="borrar">Borrar</string>
+</resources>
