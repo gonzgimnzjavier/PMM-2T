@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         @SuppressLint({"MissingInflatedId", "LocalSuppress"})
         Button button = findViewById(R.id.button);
-        button.setOnClickListener(v -> EnviarSMS(v));
+        button.setOnClickListener(view -> EnviarSMS(view));
     }
 
     public void EnviarSMS (View v) {
