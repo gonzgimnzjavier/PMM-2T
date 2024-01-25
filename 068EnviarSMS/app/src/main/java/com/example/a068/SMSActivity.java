@@ -25,7 +25,7 @@ public class SMSActivity extends AppCompatActivity implements ReceptorSMS.onReci
         //creamos y registramos el receptor de sms de manera dinamica
         //en vez de declararlo como receptor en el MANIFEST
         receptor = new ReceptorSMS();
-       registerReceiver(receptor, new IntentFilter("android.provider.Telephony.SMS_RECEIVED"));
+        registerReceiver(receptor, new IntentFilter("android.provider.Telephony.SMS_RECEIVED"));
         receptor.setOnRecibeSMSListener(this);
         Button button = findViewById(R.id.button);
         button.setOnClickListener(view -> EnviarSMS(view));
