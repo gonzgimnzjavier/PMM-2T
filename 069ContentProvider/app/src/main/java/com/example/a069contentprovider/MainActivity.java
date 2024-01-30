@@ -16,6 +16,7 @@ import android.net.Uri;
 import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -89,9 +90,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         String mensaje = ((EditText) findViewById(R.id.txtSMS)).getText().toString();
         Cursor cursorTelefono = cr.query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,null, ContactsContract.CommonDataKinds.Phone.CONTACT_ID + " = ?", new String[]{identificador}, null);
         while (cursorTelefono.moveToNext()) {
-            @SuppressLint("Range") String telefono = cursorTelefono.getString(cursorTelefono.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+            @SuppressLint("Range") String telefono = cursorTelefono.getString(cursorTelefono.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DATA));
             try {
                 smsManager.sendTextMessage(telefono, null, mensaje, null, null);
+                Toast.makeText(getApplicationContext(), "SMS enviado.", Toast.LENGTH_LONG).show();
                 Log.d(tag, "SMS enviado.");
             } catch (Exception e) {
                 Log.d(tag, "No se pudo enviar el SMS.");

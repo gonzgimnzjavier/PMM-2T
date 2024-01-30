@@ -43,5 +43,6 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:text="escribe aquí el texto del mensaje"/>
+        android:text=""
+        android:hint="Escribir mensaje"/>
 </RelativeLayout>
