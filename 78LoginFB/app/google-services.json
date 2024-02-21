@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1095625260678",
+    "project_id": "login-10106",
+    "storage_bucket": "login-10106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095625260678:android:a888a981eacee276a6db07",
+        "android_client_info": {
+          "package_name": "com.example.a78loginfb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdEkj5vR8cvx8xUGeotSiih38wyQlLCB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
