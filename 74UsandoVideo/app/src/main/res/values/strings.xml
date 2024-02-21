@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">74UsandoVideo</string>
+    <string name="thumbnailButton">Hacer video</string>
+    <string name="thumbnailText">y visualizar video...</string>
+    <string name="guardarFoto">Hacer video</string>
+    <string name="guardarFotoText">Y Guardar video</string>
+</resources>

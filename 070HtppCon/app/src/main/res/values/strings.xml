@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">070HtppCon</string>
+
+    <string name="info_text">En este formulario puedes introducir tu comentario. Presiona "Enviar" para postearlo o "Cancelar" para
+    retornar al escritorio de comentarios</string>
+    <string name="action_add">Añadir</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_update">Refrescar</string>
+
+</resources>
